@@ -1,0 +1,84 @@
+.card{
+margin-top: 8px;
+background-color: rgb(250, 249, 249);
+padding: 4px;
+border-radius: 5px;
+border: 1px solid #eae5e5;
+box-shadow: gray;
+display: flex;
+flex-direction: column;
+gap: 4px;
+width: 100%;
+}
+.cardHead{
+display: flex;
+justify-content: space-between;
+text-align: center;
+align-items: center;
+
+}
+.cardName{
+    color: rgb(134, 130, 130);
+    
+}
+.userPic{
+width: 20px;
+aspect-ratio: 1;
+background: rgb(242, 235, 235);
+border-radius: 50%;
+padding: 4px;
+border: 0.5px solid rgb(218, 213, 213);
+}  
+
+.titleBox{
+    display: flex;
+    gap: 8px;
+   align-items:start;
+}
+.cardTitle{
+ font-size: 10px;
+}
+.cardFoot{
+    display: flex;
+    text-align: center;
+    width: fit-content; 
+    padding-top: 10px;
+    align-items: center;
+    gap: 10px;
+}
+.cardStatusIcon{
+    width: 12px;
+    aspect-ratio: 1;
+    text-align: center;
+}
+
+.featureRequestBox{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   gap: 4px;
+   padding: 2px 6px;
+   border: 1px solid rgb(211, 204, 204);
+   border-radius: 4px;
+
+}
+.round{
+    width: 12px;
+    height: 12px;
+border-radius: 50%;
+background-color: rgb(211, 204, 204);
+}
+.cardStatus{
+    display: flex;
+    aspect-ratio: 1;
+    justify-content: center;
+    border: 1px solid rgb(211, 204, 204);
+    border-radius: 4px;
+    padding: 2px;
+}
+.fetureRequestText{
+    line-height: 18px;
+    text-align: center;
+    color: rgb(134, 130, 130);
+}
